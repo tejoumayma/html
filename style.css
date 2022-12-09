@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  /* width: 50%; */
+  border: 1px solid black;
+  border-radius: 5px;
+}
+li {
+  display: inline;
+  /* margin: 8%;
+  margin-top: 10%;
+  color: red; */
+}
+
+li a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+li a:hover {
+  background: rgb(116, 116, 116);
+  color: #fff;
+}
+
+.about-section {
+  background-color: black;
+  color: rgb(230, 223, 223);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+h3 {
+  color: red;
+  text-align: center;
+}
+.work-section {
+  background-color: black;
+  color: rgb(230, 223, 223);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.contact-section {
+  background-color: black;
+  margin-top: 7%;
+  padding: 50px;
+  text-align: justify;
+  background-color: white;
+  color: #ca2613;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1 px solid black;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  resize: horizontal;
+}
+input[type="submit"] {
+  background-color: black;
+  color: #ca2613;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

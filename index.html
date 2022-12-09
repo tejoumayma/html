@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
@@ -14,6 +16,8 @@
       <li><a href="#resume">Resume</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <img src="go.png" alt="picture"> <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/olJOZp57FWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div class="about-section">
       <form id="about"></form>
       <h3>about us</h3>
@@ -96,15 +100,23 @@
                 <form id="contact"></form>
                 <h3>contact us </h3>
                 <label for="name">name</label>
-                <input type="text"> <br>
+                <input id="name" type="text"> <br>
                 <label for="email">email</label>
-                <input type="text"> <br>
-                <label for="your message">your message</label>
-                <input type="text"> <br>
+                <input id="email" type="text"> <br>
+                <label for="your_message">your message</label>
+                <textarea id="your_message" name="your_message" placeholder="write somthing" cols="40" rows="9"></textarea> <br>
                 <input type="submit" value="Submit">
               </div> 
               <br>
-              <footee> &copy; copyright</footee>
+              <footer> 
+                <table>
+                  <tr>
+                    <td><a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                    </td>
+                  </tr>
+                </table>
+                &copy; copyright</footer>
 
   </body>
 </html>
